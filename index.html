@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AHA Unisex Salon &amp; Spa — HSR Layout, Bengaluru | Hair, Spa, Nails &amp; Makeup</title>
+<meta name="description" content="AHA Unisex Salon & Spa, HSR Layout Bengaluru — rated 4.8★ by 1,871 customers. Hair styling & colouring, facials, manicure, pedicure, head massage, nail art and makeup. Open daily 10 am–10 pm. Book on WhatsApp.">
+<meta name="theme-color" content="#161009">
+
+<!-- Open Graph / WhatsApp link preview -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AHA Unisex Salon & Spa">
+<meta property="og:url" content="https://u737300-ui.github.io/aha-salon-sample/">
+<meta property="og:title" content="AHA Unisex Salon & Spa — Bengaluru">
+<meta property="og:description" content="Rated 4.8★ by 1,871 happy customers — hair styling & colouring, facials, spa, nails and makeup in HSR Layout, Bengaluru. Open daily 10 am–10 pm. Tap to book on WhatsApp.">
+<meta property="og:image" content="https://u737300-ui.github.io/aha-salon-sample/img/og-cover.jpg">
+<meta property="og:image:secure_url" content="https://u737300-ui.github.io/aha-salon-sample/img/og-cover.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Inside AHA Unisex Salon & Spa, Bengaluru">
+<meta property="og:locale" content="en_IN">
+
+<!-- Twitter card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AHA Unisex Salon & Spa — Bengaluru">
+<meta name="twitter:description" content="Rated 4.8★ by 1,871 happy customers — hair, facials, spa, nails & makeup in HSR Layout. Open daily 10 am–10 pm. Book on WhatsApp.">
+<meta name="twitter:image" content="https://u737300-ui.github.io/aha-salon-sample/img/og-cover.jpg">
+<meta name="twitter:image:alt" content="Inside AHA Unisex Salon & Spa, Bengaluru">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23161009'/><text x='50' y='66' font-size='52' text-anchor='middle' fill='%23c9a45c' font-family='Georgia'>A</text></svg>">
+<style>
+  :root{
+    --bg:#161009; --bg2:#1f180e; --card:#241b10; --line:#3a2d1a;
+    --gold:#c9a45c; --gold2:#e6c887; --cream:#f5ecdb;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  :root{
+    --muted:#c9b995; --wa:#25d366; --wa-dark:#1eb856;
+  }
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--cream);font-family:'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:Georgia,'Times New Roman',serif;font-weight:600;line-height:1.2}
+  img{display:block;max-width:100%}
+  a{text-decoration:none}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+  .gold{color:var(--gold)}
+
+  /* top bar */
+  header{position:sticky;top:0;z-index:50;background:rgba(22,16,9,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+  .brand{font-family:Georgia,serif;font-size:22px;letter-spacing:2px;color:var(--cream)}
+  .brand span{color:var(--gold)}
+  .bar nav{display:none;gap:26px}
+  .bar nav a{color:var(--muted);font-size:15px}
+  .bar nav a:hover{color:var(--gold2)}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:999px;font-weight:600;font-size:15px;border:1px solid transparent;transition:.2s}
+  .btn-wa{background:var(--wa);color:#0b2413}
+  .btn-wa:hover{background:var(--wa-dark)}
+  .btn-call{background:transparent;color:var(--gold2);border-color:var(--gold)}
+  .btn-call:hover{background:rgba(201,164,92,.12)}
+  .btn-sm{padding:9px 18px;font-size:14px}
+
+  /* hero */
+  .hero{position:relative;min-height:88vh;display:flex;align-items:flex-end;background:url('img/hero.jpg') center 30%/cover no-repeat}
+  .hero::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(22,16,9,.45) 0%,rgba(22,16,9,.25) 40%,rgba(22,16,9,.94) 88%)}
+  .hero-in{position:relative;padding:90px 0 56px;width:100%}
+  .hero .est{letter-spacing:3px;text-transform:uppercase;font-size:13px;color:var(--gold2);margin-bottom:12px}
+  .hero h1{font-size:clamp(38px,7vw,64px);max-width:700px}
+  .hero h1 em{font-style:normal;color:var(--gold)}
+  .hero p.sub{color:#e9dcbf;font-size:clamp(16px,2.4vw,19px);max-width:560px;margin:14px 0 20px}
+  .badge{display:inline-flex;align-items:center;gap:9px;background:rgba(22,16,9,.75);border:1px solid var(--gold);color:var(--gold2);padding:8px 16px;border-radius:999px;font-size:15px;font-weight:600;margin-bottom:24px}
+  .badge .star{color:#ffb400;font-size:17px}
+  .cta-row{display:flex;flex-wrap:wrap;gap:12px}
+  .hero-meta{margin-top:22px;color:var(--muted);font-size:14.5px}
+  .hero-meta b{color:var(--cream);font-weight:600}
+
+  section{padding:70px 0}
+  .sec-head{text-align:center;max-width:640px;margin:0 auto 40px}
+  .sec-head .kicker{letter-spacing:3px;text-transform:uppercase;font-size:12.5px;color:var(--gold);margin-bottom:10px}
+  .sec-head h2{font-size:clamp(28px,4.5vw,38px)}
+  .sec-head p{color:var(--muted);margin-top:10px}
+
+  /* services */
+  .svc-grid{display:grid;grid-template-columns:1fr;gap:18px}
+  .svc{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+  .svc img{width:100%;height:190px;object-fit:cover}
+  .svc .body{padding:18px 20px 20px}
+  .svc h3{font-size:20px;color:var(--gold2);margin-bottom:6px}
+  .svc p{color:var(--muted);font-size:14.5px}
+  .svc .price{margin-top:10px;color:var(--cream);font-weight:600;font-size:15px}
+  .svc .price span{color:var(--gold)}
+
+  .offers{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .offer-grid{display:grid;grid-template-columns:1fr;gap:18px}
+  .offer{border:1px solid var(--gold);border-radius:16px;padding:24px;background:linear-gradient(160deg,rgba(201,164,92,.10),rgba(201,164,92,.02))}
+  .offer .tag{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--gold)}
+  .offer h3{font-size:22px;margin:6px 0 4px}
+  .offer .amt{font-family:Georgia,serif;font-size:34px;color:var(--gold2)}
+  .offer ul{list-style:none;margin-top:10px;color:var(--muted);font-size:14.5px}
+  .offer ul li::before{content:'✦ ';color:var(--gold)}
+  .price-table{width:100%;border-collapse:collapse;margin-top:8px}
+  .price-table td{padding:13px 6px;border-bottom:1px solid var(--line);font-size:15.5px}
+  .price-table td:nth-child(2){text-align:right;color:var(--gold2);font-weight:700;white-space:nowrap}
+  .price-table tr:last-child td{border-bottom:none}
+  .price-table small{display:block;color:var(--muted);font-size:13px}
+
+  /* about / why */
+  .about-grid{display:grid;grid-template-columns:1fr;gap:30px;align-items:center}
+  .about-grid img{border-radius:16px;width:100%;height:100%;max-height:420px;object-fit:cover;border:1px solid var(--line)}
+  .about-txt p{color:var(--muted);margin-bottom:14px}
+  .about-txt p b{color:var(--cream)}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 10px;text-align:center}
+  .stat .num{font-family:Georgia,serif;font-size:26px;color:var(--gold2)}
+  .stat .lbl{font-size:12.5px;color:var(--muted);letter-spacing:.4px}
+  .why-grid{display:grid;grid-template-columns:1fr;gap:16px}
+  .why{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .why .ic{font-size:24px;margin-bottom:8px}
+  .why h3{font-size:18px;color:var(--gold2);margin-bottom:5px}
+  .why p{color:var(--muted);font-size:14.5px}
+
+  /* gallery */
+  .gal{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  .gal figure{border-radius:14px;overflow:hidden;position:relative;border:1px solid var(--line)}
+  .gal img{width:100%;height:180px;object-fit:cover;transition:transform .4s}
+  .gal figure:hover img{transform:scale(1.05)}
+  .gal figcaption{position:absolute;left:0;right:0;bottom:0;padding:22px 12px 9px;font-size:13px;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.75))}
+
+  /* visit */
+  .visit{background:var(--bg2);border-top:1px solid var(--line)}
+  .visit-grid{display:grid;grid-template-columns:1fr;gap:26px}
+  .vcard{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px}
+  .vcard h3{color:var(--gold2);font-size:20px;margin-bottom:12px}
+  .vcard p,.vcard li{color:var(--muted);font-size:15.5px}
+  .vcard ul{list-style:none}
+  .vcard li{padding:7px 0;border-bottom:1px dashed var(--line);display:flex;justify-content:space-between;gap:14px}
+  .vcard li:last-child{border-bottom:none}
+  .vcard li b{color:var(--cream);font-weight:600;text-align:right}
+  .vcard a{color:var(--gold2);font-weight:600}
+  .big-cta{text-align:center;margin-top:34px}
+  .big-cta h3{font-size:clamp(24px,4vw,32px);margin-bottom:8px}
+  .big-cta p{color:var(--muted);margin-bottom:20px}
+
+  /* book buttons + booking form */
+  .book-btn{display:inline-block;margin-top:14px;background:var(--gold);color:#1d1503;font-weight:700;font-size:14px;padding:10px 18px;border-radius:999px;transition:.2s}
+  .book-btn:hover{background:var(--gold2)}
+  .book-btn.ghost{background:transparent;color:var(--gold2);border:1px solid var(--gold);margin-left:8px}
+  .book-btn.ghost:hover{background:rgba(201,164,92,.12)}
+  .svc .body .book-btn{margin-top:14px}
+  .offer .book-btn{margin-top:16px}
+  .price-table .bk-cell{text-align:right;width:1%;white-space:nowrap}
+  .price-table .book-btn{margin-top:0;padding:7px 14px;font-size:13px}
+  #booking{scroll-margin-top:80px}
+  .bk-card{max-width:680px;margin:0 auto;background:var(--card);border:1px solid var(--gold);border-radius:18px;padding:28px 24px}
+  .bk-form{display:grid;grid-template-columns:1fr;gap:16px}
+  .bk-form label{display:block;font-size:14px;font-weight:600;color:var(--gold2);margin-bottom:6px}
+  .bk-form input,.bk-form select{width:100%;background:#171008;border:1px solid var(--line);border-radius:10px;color:var(--cream);padding:13px 14px;font-size:16px;font-family:inherit}
+  .bk-form input:focus,.bk-form select:focus{outline:none;border-color:var(--gold)}
+  .bk-form select option{background:#171008;color:var(--cream)}
+  .bk-row{display:grid;grid-template-columns:1fr;gap:16px}
+  .bk-submit{background:var(--wa);color:#0b2413;border:none;width:100%;padding:16px;border-radius:999px;font-size:17px;font-weight:700;cursor:pointer;font-family:inherit}
+  .bk-submit:hover{background:var(--wa-dark)}
+  .bk-note{text-align:center;color:var(--muted);font-size:13.5px;margin-top:12px}
+  @media(min-width:640px){.bk-row{grid-template-columns:1fr 1fr}}
+
+  footer{border-top:1px solid var(--line);padding:34px 0 90px;text-align:center;color:var(--muted);font-size:14px}
+  footer .fname{font-family:Georgia,serif;font-size:19px;color:var(--cream);letter-spacing:1.5px;margin-bottom:6px}
+  footer a{color:var(--gold2)}
+  .credit{margin-top:14px;font-size:12.5px;color:#8a7a58}
+
+  .float-wa{position:fixed;right:16px;bottom:16px;z-index:60;background:var(--wa);color:#0b2413;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:27px;box-shadow:0 8px 24px rgba(0,0,0,.45)}
+
+  @media(min-width:640px){
+    .svc-grid{grid-template-columns:repeat(2,1fr)}
+    .offer-grid{grid-template-columns:repeat(2,1fr)}
+    .why-grid{grid-template-columns:repeat(2,1fr)}
+    .gal{grid-template-columns:repeat(3,1fr)}
+    .gal img{height:210px}
+  }
+  @media(min-width:900px){
+    .bar nav{display:flex}
+    .svc-grid{grid-template-columns:repeat(4,1fr)}
+    .svc img{height:160px}
+    .about-grid{grid-template-columns:1fr 1fr}
+    .why-grid{grid-template-columns:repeat(4,1fr)}
+    .visit-grid{grid-template-columns:1fr 1fr}
+    .gal{grid-template-columns:repeat(4,1fr)}
+    footer{padding-bottom:40px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <div class="brand">AHA <span>SALON &amp; SPA</span></div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#offers">Offers &amp; Prices</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit Us</a>
+    </nav>
+    <a class="btn btn-wa btn-sm" href="#booking">💬 Book Now</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="wrap hero-in">
+    <div class="est">Unisex Salon &amp; Spa · Since 2007 · HSR Layout</div>
+    <h1>Look Good. <em>Feel Amazing.</em></h1>
+    <p class="sub">Bengaluru's trusted salon &amp; spa for hair, skin, nails and complete grooming — for men and women, all under one roof.</p>
+    <div class="badge"><span class="star">★</span> 4.8 rated · 1,871 Google reviews</div>
+    <div class="cta-row">
+      <a class="btn btn-wa" href="#booking">📅 Book an Appointment</a>
+      <a class="btn btn-call" href="tel:+919113506715">📞 Call +91 91135 06715</a>
+    </div>
+    <div class="hero-meta">🕙 Open today <b>10:00 am – 10:00 pm</b> · 📍 27th Main Road, HSR Layout Sector 1</div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">What We Do</div>
+      <h2>Our Services</h2>
+      <p>Complete hair, beauty, nail and spa care for men and women — walk in, or book ahead on WhatsApp.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc">
+        <img src="img/hair-color.jpg" alt="Hair styling and colouring at AHA Salon">
+        <div class="body">
+          <h3>Hair Styling &amp; Colouring</h3>
+          <p>Haircuts, styling and colouring tailored to you by experienced stylists.</p>
+          <a class="book-btn" href="#booking" data-service="Hair Styling &amp; Colouring">Book This Service</a>
+        </div>
+      </div>
+      <div class="svc">
+        <img src="img/spa.jpg" alt="Spa and massage therapy">
+        <div class="body">
+          <h3>Spa &amp; Head Massage</h3>
+          <p>Relaxing head massage and spa therapies to melt away stress.</p>
+          <a class="book-btn" href="#booking" data-service="Head Massage">Book Head Massage</a>
+        </div>
+      </div>
+      <div class="svc">
+        <img src="img/nails.jpg" alt="Manicure and nail art">
+        <div class="body">
+          <h3>Manicure &amp; Nail Art</h3>
+          <p>Manicures, gel polish, nail extensions and creative nail art.</p>
+          <div class="price">Manicure from <span>₹300</span></div>
+          <a class="book-btn" href="#booking" data-service="Manicure - Women (₹400)">Book Manicure</a><a class="book-btn ghost" href="#booking" data-service="Nail Art">Book Nail Art</a>
+        </div>
+      </div>
+      <div class="svc">
+        <img src="img/haircut.jpg" alt="Haircut and beard grooming for men">
+        <div class="body">
+          <h3>Cuts &amp; Beard Grooming</h3>
+          <p>Sharp haircuts and beard grooming for the complete men's look.</p>
+          <a class="book-btn" href="#booking" data-service="Haircut &amp; Beard Grooming">Book Grooming</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OFFERS & PRICES -->
+<section class="offers" id="offers">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Value Packages</div>
+      <h2>Offers &amp; Price List</h2>
+      <p>Our most-loved packages and services at honest prices.</p>
+    </div>
+    <div class="offer-grid">
+      <div class="offer">
+        <div class="tag">For Her</div>
+        <h3>Women's Package</h3>
+        <div class="amt">₹799</div>
+        <ul>
+          <li>Cleansing &amp; scrub</li>
+          <li>Head massage</li>
+          <li>Eyebrows</li>
+          <li>Haircut</li>
+        </ul>
+        <a class="book-btn" href="#booking" data-service="Women's Package (₹799)">Book This Package</a>
+      </div>
+      <div class="offer">
+        <div class="tag">For Him</div>
+        <h3>Men's Package</h3>
+        <div class="amt">₹499</div>
+        <ul>
+          <li>Haircut</li>
+          <li>Beard grooming</li>
+          <li>Cleansing &amp; scrub</li>
+        </ul>
+        <a class="book-btn" href="#booking" data-service="Men's Package (₹499)">Book This Package</a>
+      </div>
+    </div>
+    <div class="vcard" style="margin-top:18px">
+      <h3>Price List</h3>
+      <table class="price-table">
+        <tr><td>Manicure — Men <small>30 minutes</small></td><td>₹300 – ₹400</td><td class="bk-cell"><a class="book-btn" href="#booking" data-service="Manicure - Men (₹300-₹400)">Book</a></td></tr>
+        <tr><td>Manicure — Women</td><td>₹400</td><td class="bk-cell"><a class="book-btn" href="#booking" data-service="Manicure - Women (₹400)">Book</a></td></tr>
+        <tr><td>Plain Gel Polish</td><td>₹399</td><td class="bk-cell"><a class="book-btn" href="#booking" data-service="Plain Gel Polish (₹399)">Book</a></td></tr>
+        <tr><td>Gel Nail Extension</td><td>₹999</td><td class="bk-cell"><a class="book-btn" href="#booking" data-service="Gel Nail Extension (₹999)">Book</a></td></tr>
+        <tr><td>Acrylic Nail Extension</td><td>₹1,199</td><td class="bk-cell"><a class="book-btn" href="#booking" data-service="Acrylic Nail Extension (₹1,199)">Book</a></td></tr>
+        <tr><td>Saree Draping</td><td>₹800</td><td class="bk-cell"><a class="book-btn" href="#booking" data-service="Saree Draping (₹800)">Book</a></td></tr>
+        <tr><td>Basic Makeup</td><td>₹1,999</td><td class="bk-cell"><a class="book-btn" href="#booking" data-service="Basic Makeup (₹1,999)">Book</a></td></tr>
+      </table>
+      <p style="margin-top:14px;font-size:14px;color:var(--muted)">Also available: facials, pedicure and more in-salon services — message us on WhatsApp for today's availability.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT + WHY -->
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <img src="img/portrait.jpg" alt="Happy client with styled hair at AHA Salon">
+      <div class="about-txt">
+        <div class="kicker" style="letter-spacing:3px;text-transform:uppercase;font-size:12.5px;color:var(--gold);margin-bottom:10px">About AHA</div>
+        <h2 style="font-size:clamp(26px,4vw,34px);margin-bottom:14px">Bengaluru's Neighbourhood Salon Since 2007</h2>
+        <p>Located on 27th Main Road in <b>HSR Layout Sector 1</b>, AHA Unisex Salon &amp; Spa has been styling Bengaluru <b>since 2007</b>. From everyday haircuts to complete makeovers, our team serves <b>men and women</b> with hair, skin, nail, spa and makeup services under one roof.</p>
+        <p>With a <b>4.8★ rating from 1,871 customers</b>, we're proud to be one of HSR Layout's most-loved salons — and we're open <b>every single day, 10 am to 10 pm</b>.</p>
+        <div class="stats">
+          <div class="stat"><div class="num">4.8★</div><div class="lbl">Google Rating</div></div>
+          <div class="stat"><div class="num">1,871</div><div class="lbl">Customer Reviews</div></div>
+          <div class="stat"><div class="num">2007</div><div class="lbl">Serving Since</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Why AHA</div>
+      <h2>Why Customers Choose Us</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why"><div class="ic">🏆</div><h3>Trusted Since 2007</h3><p>Nearly two decades of styling experience in the heart of HSR Layout.</p></div>
+      <div class="why"><div class="ic">⭐</div><h3>4.8★ Rated</h3><p>Loved by customers — 1,871 ratings and counting on Google &amp; JustDial.</p></div>
+      <div class="why"><div class="ic">💇</div><h3>For Men &amp; Women</h3><p>A true unisex salon &amp; spa — hair, skin, nails, grooming and makeup for everyone.</p></div>
+      <div class="why"><div class="ic">🕙</div><h3>Open All 7 Days</h3><p>10:00 am – 10:00 pm, every day of the week. Book anytime on WhatsApp.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Inside AHA</div>
+      <h2>Gallery</h2>
+    </div>
+    <div class="gal">
+      <figure><img src="img/hero.jpg" alt="Salon interior" loading="lazy"><figcaption>Our Salon</figcaption></figure>
+      <figure><img src="img/hair-color.jpg" alt="Hair colouring" loading="lazy"><figcaption>Hair Colouring</figcaption></figure>
+      <figure><img src="img/styling.jpg" alt="Hair styling and blow-dry" loading="lazy"><figcaption>Styling &amp; Blow-Dry</figcaption></figure>
+      <figure><img src="img/haircut.jpg" alt="Men's haircut" loading="lazy"><figcaption>Men's Grooming</figcaption></figure>
+      <figure><img src="img/spa.jpg" alt="Spa massage" loading="lazy"><figcaption>Spa &amp; Massage</figcaption></figure>
+      <figure><img src="img/nails.jpg" alt="Nail care" loading="lazy"><figcaption>Nails &amp; Nail Art</figcaption></figure>
+      <figure><img src="img/footspa.jpg" alt="Foot spa and pedicure care" loading="lazy"><figcaption>Pedicure &amp; Foot Spa</figcaption></figure>
+      <figure><img src="img/portrait.jpg" alt="Styled hair finish" loading="lazy"><figcaption>The AHA Finish</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- VISIT / CONTACT -->
+<section class="visit" id="visit">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Find Us</div>
+      <h2>Visit Us</h2>
+    </div>
+    <div class="visit-grid">
+      <div class="vcard">
+        <h3>🕙 Opening Hours</h3>
+        <ul>
+          <li><span>Monday – Sunday</span><b>10:00 am – 10:00 pm</b></li>
+          <li><span>Open</span><b>All 7 days</b></li>
+        </ul>
+        <h3 style="margin-top:24px">📍 Address</h3>
+        <p>Building No. 421, First Floor, Above Liberty Showroom,<br>27th Main Road, HSR Layout Sector 1,<br>Bengaluru – 560102, Karnataka</p>
+      </div>
+      <div class="vcard">
+        <h3>📞 Contact</h3>
+        <ul>
+          <li><span>WhatsApp / Call</span><b><a href="https://wa.me/919113506715" target="_blank" rel="noopener">+91 91135 06715</a></b></li>
+          <li><span>Call</span><b><a href="tel:+917383598843">+91 73835 98843</a></b></li>
+          <li><span>Call</span><b><a href="tel:+918880262899">+91 88802 62899</a></b></li>
+          <li><span>Instagram</span><b><a href="https://www.instagram.com/ahaunisexsalon" target="_blank" rel="noopener">@ahaunisexsalon</a></b></li>
+        </ul>
+        <p style="margin-top:14px">Fastest way to book: send us a WhatsApp message — pick your service, pick your time, done.</p>
+      </div>
+    </div>
+    <div class="big-cta">
+      <h3>Ready for your <span class="gold">new look?</span></h3>
+      <p>Walk in today, or book your chair in one tap.</p>
+      <div class="cta-row" style="justify-content:center">
+        <a class="btn btn-wa" href="#booking">📅 Book an Appointment</a>
+        <a class="btn btn-call" href="tel:+919113506715">📞 Call the Salon</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section id="booking">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Book Now</div>
+      <h2>Book an Appointment</h2>
+      <p>Fill this in and tap Book — your appointment request opens in WhatsApp, ready to send to the salon. Open daily 10:00 am – 10:00 pm.</p>
+    </div>
+    <div class="bk-card">
+      <form class="bk-form" id="bk-form" novalidate>
+        <div>
+          <label for="bk-name">Your Name *</label>
+          <input type="text" id="bk-name" name="name" placeholder="e.g. Priya Sharma" required autocomplete="name">
+        </div>
+        <div>
+          <label for="bk-phone">Your Phone Number *</label>
+          <input type="tel" id="bk-phone" name="phone" placeholder="e.g. 98765 43210" required pattern="[0-9+ \-]{10,15}" autocomplete="tel">
+        </div>
+        <div>
+          <label for="bk-service">Select Service *</label>
+          <select id="bk-service" name="service" required>
+            <option value="" disabled selected>Choose a service…</option>
+            <option value="Women's Package (₹799)">Women's Package — ₹799</option>
+            <option value="Men's Package (₹499)">Men's Package — ₹499</option>
+            <option value="Hair Styling &amp; Colouring">Hair Styling &amp; Colouring</option>
+            <option value="Haircut &amp; Beard Grooming">Haircut &amp; Beard Grooming</option>
+            <option value="Facial">Facial</option>
+            <option value="Head Massage">Head Massage</option>
+            <option value="Manicure - Men (₹300-₹400)">Manicure — Men (₹300–₹400)</option>
+            <option value="Manicure - Women (₹400)">Manicure — Women (₹400)</option>
+            <option value="Pedicure">Pedicure</option>
+            <option value="Nail Art">Nail Art</option>
+            <option value="Gel Nail Extension (₹999)">Gel Nail Extension — ₹999</option>
+            <option value="Acrylic Nail Extension (₹1,199)">Acrylic Nail Extension — ₹1,199</option>
+            <option value="Plain Gel Polish (₹399)">Plain Gel Polish — ₹399</option>
+            <option value="Saree Draping (₹800)">Saree Draping — ₹800</option>
+            <option value="Basic Makeup (₹1,999)">Basic Makeup — ₹1,999</option>
+            <option value="Other / Not Sure Yet">Other / Not Sure Yet</option>
+          </select>
+        </div>
+        <div class="bk-row">
+          <div>
+            <label for="bk-date">Preferred Date *</label>
+            <input type="date" id="bk-date" name="date" required>
+          </div>
+          <div>
+            <label for="bk-time">Preferred Time *</label>
+            <select id="bk-time" name="time" required>
+              <option value="" disabled selected>Choose a time…</option>
+              <option>10:00 AM</option>
+              <option>11:00 AM</option>
+              <option>12:00 PM</option>
+              <option>1:00 PM</option>
+              <option>2:00 PM</option>
+              <option>3:00 PM</option>
+              <option>4:00 PM</option>
+              <option>5:00 PM</option>
+              <option>6:00 PM</option>
+              <option>7:00 PM</option>
+              <option>8:00 PM</option>
+              <option>9:00 PM</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="bk-submit">💬 Book on WhatsApp</button>
+        <p class="bk-note">Your request opens in WhatsApp — just press send, and the salon will confirm your slot.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fname">AHA UNISEX SALON &amp; SPA</div>
+    <div>27th Main Road, HSR Layout Sector 1, Bengaluru – 560102 · Open daily 10 am – 10 pm</div>
+    <div style="margin-top:8px"><a href="https://wa.me/919113506715" target="_blank" rel="noopener">WhatsApp</a> · <a href="https://www.instagram.com/ahaunisexsalon" target="_blank" rel="noopener">Instagram</a></div>
+    <div class="credit">Sample website by Qodra Dev · Stock photos from Pexels</div>
+  </div>
+</footer>
+
+<a class="float-wa" href="https://wa.me/919113506715?text=Hi%20AHA%20Salon%2C%20I%27d%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+
+<script>
+// Pre-select the service when a service's Book button is clicked
+(function(){
+  var svc = document.getElementById('bk-service');
+  document.querySelectorAll('[data-service]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var v = btn.getAttribute('data-service');
+      for (var i = 0; i < svc.options.length; i++){
+        if (svc.options[i].value === v){ svc.selectedIndex = i; break; }
+      }
+    });
+  });
+  // Date picker: earliest selectable day is today
+  var dateInput = document.getElementById('bk-date');
+  dateInput.min = new Date().toISOString().split('T')[0];
+  // Validate, then hand the booking to WhatsApp
+  document.getElementById('bk-form').addEventListener('submit', function(e){
+    e.preventDefault();
+    var form = e.target;
+    if (!form.checkValidity()){ form.reportValidity(); return; }
+    var name = document.getElementById('bk-name').value.trim();
+    var phone = document.getElementById('bk-phone').value.trim();
+    var service = svc.value;
+    var rawDate = dateInput.value;
+    var time = document.getElementById('bk-time').value;
+    var niceDate = new Date(rawDate + 'T00:00:00').toLocaleDateString('en-GB', {weekday:'short', day:'numeric', month:'short', year:'numeric'});
+    var msg = 'Hello AHA Unisex Salon & Spa, I would like to book an appointment.\n\n'
+      + 'Name: ' + name + '\n'
+      + 'Phone: ' + phone + '\n'
+      + 'Service: ' + service + '\n'
+      + 'Date: ' + niceDate + '\n'
+      + 'Time: ' + time;
+    window.open('https://wa.me/919113506715?text=' + encodeURIComponent(msg), '_blank');
+  });
+})();
+</script>
+
+</body>
+</html>
